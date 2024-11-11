@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+
+    <!-------- css link---------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive link -->
+     <link rel="stylesheet" href="responsive.css">
+    <!---------- Bosstrap link -------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-------- font owsaome link ------->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!----------- google font link-------- -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <!-- navbar srction start -->
+    <section class="navbar-section">
+          <div class="container">
+            <nav class="navbar">
+              <div class="logo">
+                  <a href="#">HAFIZ</a>
+              </div>
+              <ul class="nav-links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+              <div class="hamburger" onclick="toggleMenu()">
+                  <i class="fas fa-bars"></i>
+              </div>
+          </nav>
+          </div>
+      </section>
+    <!-- navbar srction end -->
+     <!-- banner section start -->
+     <section class="banner-section" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-">
+                    <h5 class="text-white">WELCOME TO MY WORLD</h5>
+                    <h2 class=" text-white">Hi i'm Hafiz <br> <span style="color: #eb0b50;"> A Professional Webdeveloper</span></h2>
+                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elitb <br>. Autem quos, dolorum consectetur impedit mollitia numquam! <br> A rerum numquam libero provident?</p>
+                    <div class="learn-more">
+                      <a href="#">LEARN MORE</a>
+                    </div>
+                    <div class="icon  mt-5">
+                        <div class=" main-icon">
+                            <h5 class="text-white">FIND WITH ME</h5>
+                            <a href="#"><i class=" shadow fa-brands fa-facebook-f mt-3"></i></a>
+                            <a href="#"><i class=" shadow fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class=" shadow fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <!-- <div class="sub-icon">
+                            <h5 cl>FIND WITH ME</h5>
+                            <a href=""><i class=" shadow fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class=" shadow fa-brands fa-twitter"></i></a>
+                            <a href=""><i class=" shadow fa-brands fa-linkedin"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img style="border-radius: 50%; border: 1px solid silver;" class="w-100 mb-5" src="Image/1715194243871.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+     <!-- banner section start -->
+
+     <!-- course section start -->
+      <section class="Course-section" id="features">
+        <div class="container">
+          <h4 style="color: #eb0b50;" class="mt-2">FEATURES</h4>
+          <h2 class="text-white">What I DO</h2>
+          <div class="row gy-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class=" shadow card p-4">
+                <div class="card-body">
+                  <i style="font-size: 60px;
+                  color: #eb0b50; margin-top: 30px; margin-bottom: 25px;" class="fa-solid fa-bars"></i>
+                  <h3 class="card-title">Buisness Stargary</h3>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quo.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class=" shadow card p-4">
+                <div class="card-body">
+                  <i style="font-size: 60px;
+                  color: #eb0b50; margin-top: 30px; margin-bottom: 25px;" class="fa-solid fa-book"></i>
+                  <h3 class="card-title">Buisness Stargary</h3>
+                  <p class="card-text ">With supporting text below as a natural lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quo.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class=" shadow card p-4">
+                <div class="card-body">
+                  <i style="font-size: 60px;
+                  color: #eb0b50; margin-top: 30px; margin-bottom: 25px;" class="fa-solid fa-business-time"></i>
+                  
+                  <h3 class="card-title">Buisness Stargary</h3>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quo.</p>
+                  
+                </div>
+              </div>
+            </div>
+            
+            
+            
+          </div>
+
+          <div style="margin-bottom: 100px;" class="row mt-5 gy-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class=" shadow  card p-4">
+                <div class="card-body">
+                  <i style="font-size: 60px;
+                  color: #eb0b50; margin-top: 30px; margin-bottom: 25px;" class="fa-solid fa-mobile-screen-button"></i>
+                  
+                  <h3 class="card-title">Buisness Stargary</h3>
+                  <p class="card-text ">With supporting text below as a natural lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quo.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class=" shadow card p-4">
+                <div class="card-body">
+                  <i style="font-size: 60px;
+                  color: #eb0b50; margin-top: 30px; margin-bottom: 25px;" class="fa-brands fa-windows"></i>
+                  
+                  <h3 class="card-title">Buisness Stargary</h3>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quo.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class=" shadow card p-4">
+                <div class="card-body">
+                  <i style="font-size: 60px;
+                  color: #eb0b50; margin-top: 30px; margin-bottom: 25px;" class="fa-brands fa-windows"></i>
+                  <h3 class="card-title">Buisness Stargary</h3>
+                  <p class="card-text ">With supporting text below as a natural lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quo.</p>
+                  
+                </div>
+              </div>
+            </div>
+            
+            
+            
+          </div>
+          
+        </div>
+
+      </section>
+
+      <!-- course section end -->
+
+       <!-- my portfolio section start -->
+
+      <section class="my-portfolio-section" id="portfolio">
+        <div class="container">
+          <h4 class="text-center" style="color: #eb0b50;">Visit my portfolio and keep your feedback</h4>
+          <h2 class="text-center text-white" style="font-size: 70px;">My Portfolio</h2>
+          <div class="row mt-5 gy-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card shadow">
+                <div class="hover-image">
+                  <img src="Image/galary.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <div class="like">
+                    <h5 style="color: #eb0b50;" class="card-title">GALARY</h5>
+                  <i class="fa-regular fa-heart">255</i>
+                  </div>
+                  <p class="card-text">NFT Dashboard Application Development</p>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card shadow">
+                <div class="hover-image">
+                  <img src="Image/galary-1.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <div class="like">
+                    <h5 style="color: #eb0b50;" class="card-title">GALARY</h5>
+                  <i class="fa-regular fa-heart">255</i>
+                  </div>
+                  <p class="card-text">Travel App Design Creativity &  Application</p>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card shadow">
+                <div class="hover-image">
+                  <img src="Image/galary-2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <div class="like">
+                    <h5 style="color: #eb0b50;" class="card-title">GALARY</h5>
+                  <i class="fa-regular fa-heart">255</i>
+                  </div>
+                  <p class="card-text">Workout Website Design  And  Development</p>
+                  
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+          <div style="margin-bottom: 100px;" class="row mt-5 gy-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card shadow">
+                <div class="hover-image">
+                  <img src="Image/galary-3.jpg" class="card-img-top" alt="...">
+                </div>               
+                 <div class="card-body">
+                  <div class="like">
+                    <h5 style="color: #eb0b50;" class="card-title">GALARY</h5>
+                  <i class="fa-regular fa-heart">255</i>
+                  </div>
+                  <p class="card-text ">Mobile Application Landing Page Design</p>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card shadow">
+                <div class="hover-image">
+                  <img src="Image/galary.jpg" class="card-img-top" alt="...">
+                </div> 
+                 <div class="card-body">
+                  <div class="like">
+                    <h5 style="color: #eb0b50;" class="card-title">GALARY</h5>
+                  <i class="fa-regular fa-heart">255</i>
+                  </div>
+                  <p class="card-text">NFT Dashboard Application  Development</p>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card shadow">
+                <div class="hover-image">
+                  <img src="Image/galary.jpg" class="card-img-top" alt="...">
+                </div>                
+                <div class="card-body">
+                  <div class="like">
+                    <h5 style="color: #eb0b50;" class="card-title">GALARY</h5>
+                  <i class="fa-regular fa-heart ">255</i>
+                  </div>
+                  <p class="card-text">NFT Dashboard Application Development</p>
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- my portfolio section end -->
+
+      <!-- My Resume section start -->
+
+       <section class="my-resume-section" id="resume">
+        <div class="container">
+          <h4 class="text-center" style="color: #eb0b50;">7+ Years of Experience</h4>
+          <h2 class="text-center text-white" style="font-size: 70px;">My Resume</h2>
+          <div class="row mt-5 gy-3">
+            <div class="col-12 col-md-6 col-lg-3 shadow">
+              <h4 class="text-center ">Education</h4>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 shadow">
+              <h4 class="text-center">Professional Skills</h4>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 shadow">
+              <h4 class="text-center">Experience</h4>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 shadow">
+              <h4 class="text-center">Interview</h4>
+            </div>
+          </div>
+        </div>
+
+       </section>
+       <!-- My Resume section end -->
+
+        <!-- Education section start -->
+         <section class="Education-section">
+          <div class="container">
+            <h4 class="mt-5" style="color: #eb0b50;">2021-2024</h4>
+            <h2 class="text-white">Education Quality</h2>
+            <div class="row mt-5">
+              <div class="col-12 col-md-12 col-lg-6 ">
+                <div class="card shadow text-white mb-3 p-4">
+                  <div class="card-header">
+                    <h3 class="text-dark">Jonior School Certificate</h3>
+                    <p class="text-dark">University of DVI (2017)</p>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-dark">The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.</h4>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-6 ">
+                <div class="card shadow text-white mb-3 p-4">
+                  <div class="card-header">
+                    <h3 class="text-dark">Scondary School Certificate</h3>
+                    <p class="text-dark">University of DVI (2019 - 2020)</p>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-dark">The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.</h4>
+                    
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="row mt-3">
+              <div class="col-12 col-md-12 col-lg-6 ">
+                <div class="card shadow text-white mb-3 p-4">
+                  <div class="card-header">
+                    <h3 class="text-dark">Diploma in Computer Engineering</h3>
+                    <p class="text-dark">University of DVI (2020 - 2021)</p>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-dark">The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.</h4>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-6 ">
+                <div class="card shadow text-white mb-3 p-4">
+                  <div class="card-header">
+                    <h3 class="text-dark">BSc in Computer Science</h3>
+                    <p class="text-dark">University of DVI (2024 - 2025)</p>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-dark">The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.</h4>
+                    
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+         </section>
+         <!-- Education section end -->
+
+          <!-- job experince section start -->
+         <section class="Job-experince-section">
+          <div class="container">
+            <h4 class="mt-5" style="color: #eb0b50;">2020-2024</h4>
+            <h2 class="text-white">Job Experince</h2>
+            <div class="row mt-5">
+              <div class="col-12 col-md-12 col-lg-6 ">
+                <div class="card shadow text-white mb-3 p-4">
+                  <div class="card-header">
+                    <h3 class="text-dark">Sr. Software Engineer</h3>
+                    <p class="text-dark">Google Out Tech  (2020 - 2022)</p>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-dark">Google’s hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up.</h4>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-6 ">
+                <div class="card shadow text-white mb-3 p-4">
+                  <div class="card-header">
+                    <h3 class="text-dark">BSc in Computer Science</h3>
+                    <p class="text-dark">University of DVI (2020 - 2024)</p>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-dark">The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.</h4>
+                    
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="row mt-3">
+              <div class="col-12 col-md-12 col-lg-6 ">
+                <div class="card shadow text-white mb-3 p-4">
+                  <div class="card-header">
+                    <h3 class="text-dark">BSc in Computer Science</h3>
+                    <p class="text-dark">University of DVI (2020 - 2024)</p>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-dark">The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.</h4>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-6 ">
+                <div class="card shadow text-white mb-3 p-4">
+                  <div class="card-header">
+                    <h3 class="text-dark">BSc in Computer Science</h3>
+                    <p class="text-dark">University of DVI (2020 - 2024)</p>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-dark">The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.</h4>
+                    
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+         </section>
+         <!-- job experince section end-->
+
+
+
+       <!-- What Clients Say start -->
+
+        <section class="What-Clients-Say-section" id="testimonial">
+          <div class="container">
+            <h4 class="text-center mt-5" style="color: #eb0b50;"> What Clients Say</h4>
+            <h2 class="text-center text-white"  style="font-size: 70px;">Testimonial</h2>
+            <div style="margin-bottom: 100px;" class="row gy-3">
+              <div class="col-12 col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="Image/Client.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                   <h6 style="color: #eb0b50;">RAIN-BOW THEAMS</h6>
+                   <div class="card-subtitle-1">
+                    <h4>Nevine Acotanza</h4>
+                   <p>Chief Operating Office</p>
+                   </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-8 col-lg-8">
+                <!-- <i style="font-size: 100px;" class="fa-solid fa-quote-left"></i> -->
+                <div class="card">
+                  <div class="card-body">
+                    <h2 class="card-title">Android App Development</h2>
+                    <h6 class="card-subtitle mb-2 text-muted fs-5 text-white">Via Upwork-Mar 4 2021 - Aug 30, 2024</h6>
+                    <p class="card-text fs-5 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel fugiat asperiores necessitatibus ipsa eaque, nisi eum, dicta deleniti sunt est beatae mollitia similique aspernatur doloremque fugit qui cumque nulla ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem?</p>
+                    
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- What Clients Say end -->
+
+        <!-- Popular Client section start -->
+         <section class="popular-client-section" id="clients">
+          <div class="container">
+            <h4 style="color: #eb0b50;">POPULAR CLIENT</h4>
+            <h2 class="text text-white">Awesome Clients</h2>
+            <div style="margin-bottom: 100px;" class="row gy-3">
+              <div class="col col-md-6 col-lg-4">
+                <h5>Java Script</h5>
+                <h5>Product Design</h5>
+                <h5>Word Press</h5>
+                <h5>HTML to React</h5>
+                <h5>React to Laravel</h5>
+
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-8">
+                <div class="row gy-3">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                      <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                      <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                      <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="row mt-4 gy-3">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                      <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                      <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                      <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="row mt-4 gy-3">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                      <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                      <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                      <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row mt-4 gy-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card shadow">
+                        <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+  
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card shadow">
+                        <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+  
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card shadow">
+                        <img src="Image/popular-1.png" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <p class="card-text"></p>
+                        </div>
+                      </div>
+  
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         </section>
+        <!-- Popular Client section end -->
+
+        <!-- my blog section start -->
+         <section class="my-blog-section" id="blog">
+          <div class="container">
+             <h4 class="text-center mt-5" style="color: #eb0b50;">Visit my blog and keep your feedback</h4>
+             <h2 class="text-center text-white" style="font-size: 70px;">My Blog</h2>
+            <div style="margin-bottom: 100px;" class="row mt-5 gy-3">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow ">
+                  <img src="Image/blog.jpg" class="card-img-top w-100" alt="...">
+                  <div class="card-body">
+                    <div class="name">
+                      <p class="card-title" style="color: #eb0b50;">DEVELOPMENT</p>
+                     <i class="fa-regular fa-clock"> <span>4 min read</span></i>
+                    </div>
+                    <p class="card-text" style="font-size: 25px;">The Best to Do Market For Your Business Plan.</p>
+                    
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow ">
+                  <img src="Image/blog-1.jpg" class="card-img-top w-100" alt="...">
+                  <div class="card-body">
+                    <div class="name">
+                      <p class="card-title" style="color: #eb0b50;">QUOTE</p>
+                     <i class="fa-regular fa-clock"> <span>4 min read</span></i>
+                    </div>
+                    <p class="card-text" style="font-size: 25px;">The Easiest Way to Become a Successful Writer and Authors.</p>
+                    
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow ">
+                  <img src="Image/blog-2.jpg" class="card-img-top w-100" alt="...">
+                  <div class="card-body">
+                    <div class="name">
+                      <p class="card-title" style="color: #eb0b50;">TECHNICIAN</p>
+                     <i class="fa-regular fa-clock"> <span>4 min read</span></i>
+                    </div>
+                    <p class="card-text" style="font-size: 25px;">The Quickest Way to Deliver Your Message? Make It Visual.</p>
+                    
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+         </section>
+
+    <!-- my blog section end -->
+
+    <!------ FAQ section start---- -->
+
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <h2 class="text-white text-center">Frequently Asked Question</h2>
+        <div class="faq-item mt-5">
+            <div class="faq-question">What is JavaScript?</div>
+            <div class="faq-answer">JavaScript is a programming language used to create dynamic website content.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How do I learn JavaScript?</div>
+            <div class="faq-answer">You can learn JavaScript through various online courses, tutorials, and documentation.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">What is HTML?</div>
+            <div class="faq-answer">HTML is a markup language used to structure and display content on the web.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">What is HTML?</div>
+            <div class="faq-answer">HTML is a markup language used to structure and display content on the web.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">What is JavaScript?</div>
+          <div class="faq-answer">JavaScript is a programming language used to create dynamic website content.</div>
+      </div>
+    </div>
+  </section>
+
+    <!------ FAQ section end---- -->
+
+    <!-- contact section start -->
+     <section class="contact-section" id="contact">
+      <div class="container">
+        <h4 class="text-center" style="color: #eb0b50;">CONTACT</h4>
+        <h2 class="text-center text-white" style="font-size: 70px;">Contact With Me</h2>
+        <div class="row mt-5 gy-3" style="margin-bottom: 100px;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow ">
+              <img src="Image/contact.png" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <h4>Nevine Acotanza</h4>
+                <p class="card-text mt-2">Chif Operating Officer</p>
+                <p class="mt-2">I am available for freelance work. Connect with me via and call in to my account.</p>
+                <a href="phone:01619-854296">Phone:01619-854296</a>
+                <a href="mailto:mdhafizurr581@gmail.com">Email:mdhafizurr581@gmail.com</a>
+                <h5 class="mt-5">FIND WITH ME</h5>
+                <div class="icon">
+                <i class="fa-brands fa-facebook-f shadow "></i>
+                <i class="fa-brands fa-twitter shadow "></i>
+                <i class="fa-brands fa-linkedin-in shadow "></i>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-8">
+            <div class="data">
+              <h6>YOUR NAME</h6>
+            <input type="text" placeholder="Your Name">
+            <h6>PHONE NUMBER</h6>
+            <input type="number" placeholder="Your Phone Number">
+            <h6>EMAIL</h6>
+            <input type="email" placeholder="Your Email Address">
+            <h6>SUBJECT</h6>
+            <input type="text" placeholder="Your Subject">
+            <h6>MEASSAGE</h6>
+            <textarea style="width: 100%;
+            padding: 80px;
+            border-radius: 12px;" name="Your Comment" id="Your Comment"></textarea>
+            <a href="#">SEND MEASSAGE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     </section>
+
+
+      <!-- contact section end -->
+
+      <!-- footer section start -->
+       <section class="footer-section" id="footer">
+        <div class="container">
+          <div class="row gy-3" style="margin-bottom: 100px;">
+            <div class="col-12 col-md-6 col-lg-3">
+              <a class="text-decoration-none" href="#"><img style="border-radius: 50%;" src="Image/hafiz.png" alt="">HAFIZ</a>
+              <div class="icon">
+                <i class="fa-brands fa-facebook-f shadow "></i>
+                <i class="fa-brands fa-twitter shadow "></i>
+                <i class="fa-brands fa-linkedin-in shadow "></i>
+                </div>
+
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h4>QUICK LINK</h4>
+              <a href="">About</a>
+              <a href="">Portfolio</a>
+              <a href="">Services</a>
+              <a href="">Blog</a>
+              <a href="">Contact</a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h4>RESOURCES</h4>
+              <a href="">Authentication</a>
+              <a href="">System Status</a>
+              <a href="">Terms of Services</a>
+              <a href="">Pricing</a>
+              <a href="">Over Right</a>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h4>DEVELOPERS</h4>
+              <a href="">Documentation</a>
+              <a href="">Authentication</a>
+              <a href="">API Reference</a>
+              <a href="">Support</a>
+              <a href="">Open Source</a>
+
+            </div>
+          </div>
+        </div>
+
+       </section>
+
+
+      <!-- footer section end -->
+
+      <section class="footer-end-section">
+        <div class="container">
+          <p class="text-center fs-4 mb-4 text-white" >© 2024. All rights reserved by Rainbow-Themes</p>
+        </div>
+
+      </section>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

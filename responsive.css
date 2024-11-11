@@ -1,0 +1,172 @@
+@media screen and (max-width: 768px) {
+    .navbar .nav-links {
+        width: 100%;
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 2rem;
+
+        position: absolute;
+        top: -110%;
+        left: 0;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    .navbar .nav-links a{
+        font-size: 30px;
+    }
+    .navbar-section{
+        background:  linear-gradient(145deg,#6a67ce, #fc636b);
+    }
+
+    .navbar .nav-links.active {
+        position: relative;
+        top: 0;
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navbar .nav-links li {
+        margin: 15px 0;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navbar .logo a {
+        position: absolute;
+        top: 20px;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .Course-section .container  h2{
+        font-size: 20px;
+    }
+    .my-portfolio-section .container h2{
+        font-size: 20px !important;
+    }
+    .my-resume-section .container h2{
+        font-size: 20px !important;
+    }
+    .What-Clients-Say-section .container h2{
+        font-size: 20px !important;
+    }
+    .popular-client-section .container h2{
+        font-size:20px !important;
+    }
+    .my-blog-section .container h2{
+        font-size: 20px !important;
+    }
+    .faq-section .container h2{
+        font-size: 20px !important;
+    }
+    .contact-section .container h2{
+        font-size: 20px !important;
+    }
+    .footer-section .container .row a{
+        text-align: center !important;
+    }
+    .footer-section .container .row h4{
+        text-align: center !important;
+    }
+    
+
+  }
+ 
+  @media (min-width:480px) and (max-width:576px) {
+    .Course-section .container  h2{
+        font-size: 30px !important;
+    }
+    .my-portfolio-section .container h2{
+        font-size: 30px !important;
+    }
+    .my-resume-section .container h2{
+        font-size: 30px !important;
+    }
+    .What-Clients-Say-section .container h2{
+        font-size: 30px !important;
+    }
+    .popular-client-section .container h2{
+        font-size: 30px !important;
+    }
+    .my-blog-section .container h2{
+        font-size: 30px !important;
+    }
+    .faq-section .container h2{
+        font-size: 30px !important;
+    }
+    .contact-section .container h2{
+        font-size: 30px !important;
+    }
+  }
+
+  @media (min-width:576px) and (max-width:770px) {
+    .Course-section .container  h2{
+        font-size: 35px !important;
+    }
+    .my-portfolio-section .container h2{
+        font-size: 35px !important;
+    }
+    .my-resume-section .container h2{
+        font-size: 35px !important;
+    }
+    .What-Clients-Say-section .container h2{
+        font-size: 35px !important;
+    }
+    .popular-client-section .container h2{
+        font-size: 35px !important;
+    }
+    .my-blog-section .container h2{
+        font-size: 35px !important;
+    }
+    .faq-section .container h2{
+        font-size: 35px !important;
+    }
+    .contact-section .container h2{
+        font-size: 35px !important;
+    }
+  }
+  @media (min-width:770px) and (max-width:991px) {
+    .Course-section .container  h2{
+        font-size: 40px !important;
+    }
+    .my-portfolio-section .container h2{
+        font-size: 40px !important;
+    }
+    .my-resume-section .container h2{
+        font-size: 40px !important;
+    }
+    .What-Clients-Say-section .container h2{
+        font-size: 40px !important;
+    }
+    .popular-client-section .container h2{
+        font-size: 40px !important;
+    }
+    .my-blog-section .container h2{
+        font-size: 40px !important;
+    }
+    .faq-section .container h2{
+        font-size: 40px !important;
+    }
+    .contact-section .container h2{
+        font-size: 40px !important;
+    }
+  }
+  @media only screen and (max-width:992px) {
+    .open-btn{
+        display: inline-block;
+    }
+    .menu-bar{
+        display: none;
+        position: absolute;
+        left: 0;
+        top:100%;
+        flex-direction: column;
+    }
+}
